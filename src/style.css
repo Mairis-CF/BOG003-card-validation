@@ -1,28 +1,25 @@
 body {
-  background-image: url('media/fondo.gif');
-  background-repeat:repeat;
+  background-image: url("media/fondo.gif");
+  background-repeat: repeat;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: relative;
   padding: 0px;
   height: 50%;
   line-height: 1.5em;
   margin-top: 10%;
-  
 }
 .card {
-    margin-top: 0%;
-    margin: relative;
+  margin-top: 0%;
+  margin: relative;
 }
 #card-body {
-    object-position: center;
+  object-position: center;
 }
-#icono{
-width: 250px;
-height: 250px;
-margin-top: -10%;
+#icono {
+  width: 250px;
+  height: 250px;
+  margin-top: -10%;
 }
-
-
 
 footer {
   background-color: #f8bfc4ea;
@@ -34,28 +31,28 @@ footer {
   left: 0;
 }
 
-#instagram{
-    width: 50px;
-    height: 50px;  
-position: static;
+#instagram {
+  width: 50px;
+  height: 50px;
+  position: static;
 }
 
-#facebook{
-    width: 50px;
-    height: 50px;  
-position: static;
+#facebook {
+  width: 50px;
+  height: 50px;
+  position: static;
 }
 
-#github{
-        width: 50px;
-    height: 50px;  
-position: static;
+#github {
+  width: 50px;
+  height: 50px;
+  position: static;
 }
- #meUser {
-       width: 50px;
-    height: 50px;  
-position: static;
- }
+#meUser {
+  width: 50px;
+  height: 50px;
+  position: static;
+}
 
 #primeraPagina {
   display: block;
@@ -65,169 +62,170 @@ position: static;
   width: 40rem;
   height: 40rem;
   position: center;
-  border-radius: 25px;;
-padding: auto;
-align-items: stretch;
+  border-radius: 25px;
+  padding: auto;
+  align-items: stretch;
 }
+/* propiedades de la ventana modal de resultados */
 .modalContainerR {
-			display: none; 
-			position: fixed; 
-			z-index: 1;
-			padding-top: 100px;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%; 
-			overflow: auto; 
-			background-color: rgb(0,0,0);
-			background-color: rgba(0,0,0,0.4);
-		}
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
-		.modalContainerR .modal-contentR {
-			background-color: #201B24;
-      color: #D4BFD4;
-			margin: auto;
-			padding: 20px;
-      border-radius: 25px;
-			border: 1px solid lightgray;
-			border-top: 10px solid #8F84AD;
-			width: 60%;
-		}
+.modalContainerR .modal-contentR {
+  background-color: #201b24;
+  color: #d4bfd4;
+  margin: auto;
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  border-top: 10px solid #8f84ad;
+  width: 60%;
+}
 
 #btnModalR {
   border-radius: 18px;
   border-width: 5px;
-  border-color: #E28EAA;
-  background-color: #85456B;
-  color: #F8BFC4;
+  border-color: #e28eaa;
+  background-color: #85456b;
+  color: #f8bfc4;
   font-size: 15px;
   width: 150px;
   height: 40px;
-  
 }
 
-
 .closeR {
-  background-color: #8F84AD;
-   border-radius: 18px;
+  background-color: #8f84ad;
+  border-radius: 18px;
   border-width: 5px;
-  border-color: #D4BFD4;
-  
-  color: #D4BFD4;
+  border-color: #d4bfd4;
+
+  color: #d4bfd4;
   font-size: 18px;
   width: 150px;
   height: 40px;
 }
-  .modalContainer .closeR {
-			background-color: pink;
-			float: right;
-			font-size: 28px;
-			font-weight: bold;
-		}
+.modalContainer .closeR {
+  background-color: pink;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-		.modalContainer .closeR:hover,
-		.modalContainer .closeR:focus {
-      background-color: pink;
-      color: #000;
-			text-decoration: none;
-			cursor: pointer;
-		}
-
+.modalContainer .closeR:hover,
+.modalContainer .closeR:focus {
+  background-color: pink;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*Propiedad del cuadro de texto que recibe el 
+numero de tarjeta */
 #cNumero {
   border-radius: 10px;
   border-width: 5px;
-  border-color: #F8BFC4;
+  border-color: #f8bfc4;
   width: 250px;
   height: 30px;
-  
 }
+/* propiedades de la ventana modal 'muestrame cómo hacerlo' y 'conoce mas'
+Es importante tener en cuenta que estas dos ventanas modales se operan con las mismas propiedades
+CSS y la unica excepción es la clase btnModal1 que opera sobre el botón que despliega
+la ventana modal 'Conoce más'*/
 #btnModal {
   border-radius: 18px;
   border-width: 5px;
-  background-color: #F8BFC4;
-  border-color: #B97890;
-  color: #85456B;
+  background-color: #f8bfc4;
+  border-color: #b97890;
+  color: #85456b;
   font-size: 15px;
   width: 180px;
   height: 50px;
   float: center;
 }
 
-#btnModal1{
+#btnModal1 {
   border-radius: 18px;
   border-width: 5px;
-  background-color: #F8BFC4;
-  border-color: #B97890;
-  color: #85456B;
+  background-color: #f8bfc4;
+  border-color: #b97890;
+  color: #85456b;
   font-size: 15px;
   width: 140px;
   height: 50px;
   float: center;
 }
 
+.modalContainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
+.modalContainer .modal-content {
+  background-color: #ffd9dc;
+  color: #85456b;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-top: 10px solid #b97890;
+  width: 60%;
+  border-radius: 25px;
+}
 
+.modalContainer .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-	.modalContainer {
-			display: none; 
-			position: fixed; 
-			z-index: 1;
-			padding-top: 100px;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%; 
-			overflow: auto; 
-			background-color: rgb(0,0,0);
-			background-color: rgba(0,0,0,0.4);
-		}
+/* propiedades que actúan sobre la acción de cerrar en la ventana modal 'Conoce más'
+*/
+.modalContainer .close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-		.modalContainer .modal-content {
-			background-color: #ffd9dc;
-      color: #85456B;
-			margin: auto;
-			padding: 20px;
-			border: 1px solid lightgray;
-			border-top: 10px solid #B97890;
-			width: 60%;
-      border-radius: 25px;
-		}
-
-		.modalContainer .close {
-			color: #aaaaaa;
-			float: right;
-			font-size: 28px;
-			font-weight: bold;
-		}
-
-		.modalContainer .close:hover,
-		.modalContainer .close:focus {
-			color: #000;
-			text-decoration: none;
-			cursor: pointer;
-		}
-
-    		.modalContainer .close1 {
-			color: #aaaaaa;
-			float: right;
-			font-size: 28px;
-			font-weight: bold;
-		}
-
-		.modalContainer .close1:hover,
-		.modalContainer .close1:focus {
-			color: #000;
-			text-decoration: none;
-			cursor: pointer;
-		}
-
+.modalContainer .close1:hover,
+.modalContainer .close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+ /* estas clases operan sobre las propiedades de algunos recursos de texto e hipervinculos*/
 b {
   color: palevioletred;
 }
 
 a {
-  color: #E28EAA;
+  color: #e28eaa;
   text-decoration-line: none;
 }
 .contactame {
