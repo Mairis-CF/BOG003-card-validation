@@ -1,14 +1,138 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="media/favicon.png">
+  <center><img id="icono" src="media/icono.png" role="button" alt="icono"></center>
+</head>
+
+<body>
+
+
+  <center>
+
+    <div id="primeraPagina" class="card">
+      <div class="card-body">
+
+        <br><br><br>
+
+        <strong>
+          <h1>Do Validate</h1>
+        </strong>
+
+        <p>
+          <h3>
+            Bienvenido a <b>Do validate</b>, un software gratuito de codigo
+            abierto <br>que te permite validar una tarjeta de crédito.
+          </h3>
+        </p>
+        <br>
+        <input type="text" id="cNumero" placeholder="Aquí el numero de tarjeta" maxlength="16" />
+        <br>
+        <br>
+
+        <!--
+        <button type ="submit" id="btnValidar" name="validar">Validar</button>
+        <br> <br><br><br><br>
+        -->
+
+        <button id="btnModalR">Validar</button>
+        <div id="tvesModalR" class="modalContainerR">
+          <div class="modal-contentR">
+            <h2>Sobre tu tarjeta ingresada...</h2>
+
+            <p id="Result">RESULTADO</p>
+
+
+
+            <br><br>
+
+            <button class="closeR">Entiendo</button>
+            <br><br>
+            <p>Ocultamos los numeros por privacidad, así como no retenemos información <br>
+              personal adicional con el fin de hacer de <b>Do Validate</b> un software seguro y confiable</p>
+            <img src="media/pulso.png" width="160px" height="150px">
+            <br><br>
+            <a href="https://es.wikipedia.org/wiki/Algoritmo_de_Luhn">¿Cómo funciona?</a>
+
+          </div>
+        </div>
+        <br><br><br><br>
+
+        <button id="btnModal">Muestrame Cómo</button>
+        <div id="tvesModal" class="modalContainer">
+          <div class="modal-content">
+            <span class="close">×</span>
+            <h2>Asi validas tu tarjeta</h2>
+            <p>Busca en tu tarjeta los numeros que aparecen dentro del recuadro que dibujamos
+              para ti en la siguiente imagen,
+              esos son los numeros que evaluaremos. ¡Listo!</p>
+            <img src="media/tarjeta.png" width="200px" height="150px">
+          </div>
+        </div>
+
+
+        <button id="btnModal1">Conoce más</button>
+        <div id="tvesModal1" class="modalContainer">
+          <div class="modal-content">
+            <span class="close1">×</span>
+            <h2>Sobre <b>Do validate</b></h2>
+            <p>
+              <b>Do Validate</b> es un software de codigo abierto que puede ser usado en entornos laborales
+              e informales que permite con ayuda de un sencillo algoritmo logico determinar si una tarjeta de
+              credito
+              es válida y legal. Su entorno simple y gratuito permite una mayor compatiblidad con todo tipo de
+              usuarios.
+            </p>
+            <img src="media/equipo.png" width="200px" height="150px">
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </center>
+
+
+  <footer>
+    <center>
+
+      <div class="redes">
+        <h5 class="contactame">Contactáme</h5>
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="facebook" href="https://www.facebook.com/Mairiscast" role="button" data-mdb-ripple-color="dark"><i
+              class="facebooklist"></i><img src="media/facebook.png" id="facebook"></a>
+
+          <!-- Instagram -->
+          <a class="list" href="https://www.instagram.com" role="button" data-mdb-ripple-color="dark"><i
+              class="instagramlis"></i>
+            <img src="media/instagram.png" id="instagram"></a>
+
+          <!-- Github -->
+          <a class="list" href="https://github.com/Mairis-CF" role="button" data-mdb-ripple-color="dark"><i
+              class="githublis"></i>
+            <img src="media/github.png" id="github"></a>
+
+          <a class="meUser" href="mailto:mairiscastroflorez@gmail.com? Subject=Interesado20%en20%Do%Validate"
+            role="button"><i class="meUserList"></i><img src="media/usuario.png" id="meUser"></a>
+        </section>
+      </div>
+
+
+
+
+      <div class="copyright">
+        © 2021 desarrollado por:
+        <a href="https://github.com/Mairis-CF">Mairis CF</a>
+
+      </div>
+    </center>
+  </footer>
+  <script type="module" src="index.js"></script>
+</body>
+
 </html>
