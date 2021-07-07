@@ -1,4 +1,4 @@
-# Tarjeta de crédito válida
+# Tarjeta de crédito válids
 
 ## Índice
 
@@ -24,7 +24,7 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![gráfica de algoritmo de Luhn](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/icono.png)
 
 ## 2. Resumen del proyecto
 
