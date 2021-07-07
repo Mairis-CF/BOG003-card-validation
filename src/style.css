@@ -191,6 +191,7 @@ align-items: stretch;
 			border: 1px solid lightgray;
 			border-top: 10px solid #B97890;
 			width: 60%;
+      border-radius: 25px;
 		}
 
 		.modalContainer .close {
