@@ -5,7 +5,7 @@
 
 ## Índice de contenidos
 * [Instalación](#Instalación)
-* [investigación UX](#investigación)
+* [investigación UX](#Investigación)
 * [Funcionalidades](#Funcionalidades)
 * [Notas](#Notas)
 
@@ -56,7 +56,7 @@ y luego de algunas entrevistas con usuarios potenciales y tomando en cuenta el f
 
 Este proyecto tiene como finalidad validar una tarjeta de crédito con un máximo de longitud de 18 caracteres, mientras se ocultan los primeros numeros y se permanecen visibles los ultimos cuatro siempre usando los métodos isValid y maskify en el objeto Validator, mismo que se encuentra el el archivo 'Validator.js' y las distintas manipulaciones del DOM encontradas en el archivo 'index.js'
 
-##Notas
+## Notas
 
 Este proyecto fue desarrollado durante el ciclo de aprendizaje y prácticas de [Laboratoria](https://github.com/Laboratoriahttp:// "Laboratoria") por Maris Castro Flórez.
 
