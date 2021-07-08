@@ -1,15 +1,20 @@
-<img src = 'media/icono.png'>
+
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/icono.png){width='100px'}
+
+![icono](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/icono.png)
+
 # Do validate
 ###### Do validate es un software gratuito de código abierto que permite validar una tarjeta de crédito de hasta 18 caracteres.
 
 ## Índice de contenidos
-* [Instalación](#item1)
-* [investigación UX](#item2)
-* [Funcionalidades](#item3)
-* [Notas](#item4)
+* [Instalación](#Instalación y funcionamiento)
+* [investigación UX](#iinvestigación UX)
+* [Funcionalidades](#Funcionalidades)
+* [Notas](#Notas)
 
 ## Instalación y funcionamiento
 Forkea  [este](https://github.com/Mairis-CF/BOG003-card-validation "este") repositorio de GitHub hacia tu nube y descargalo en modalidad remota en tu maquina (recomendable de 64bits),  correras en tu consola los comandos 'npm install' con el que se instalarán todas las depencias necesarias y una vez terminado ese proceso, el siguiente comando será 'npm start' y si todo sale bien, podrás acceder al programa desde la dirección de localhost que te desplegará y correr sin problemas el comando 'npm test'.
+
 
 ##Investigación UX
 
@@ -28,27 +33,27 @@ Durante el proceso de conceptualización y creación de este proyecto, se entrev
 
 El producto final evidenciable no fue logrado por medio de un ducto recto, a diferencia de nuestra interfaz actual, el proceso de creación pudo verse complicado en más de un sentido mientras partiamos de esto:
 
-<img src = 'media/sketches/Borrador1.jpg'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/Borrador1.jpg)
 *Primeros borradores hechos en papel*
 
-<img src = 'media/sketches/Borrador2.jpg'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/Borrador2.jpg)
 
 a esto, los prototipos de alta fidelidad diseñados en figma:
 
-<img src = 'media/sketches/figma1.png'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/figma1.png)
 
 en los que se conceptualizó la idea final de interfaz 
 
-<img src = 'media/sketches/figma3.png'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/figma2.png)
 
 
-<img src = 'media/sketches/figma4.png'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/figma4.png)
 
-<img src = 'media/sketches/figma6.png'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/figma6.png)
 
 y luego de algunas entrevistas con usuarios potenciales y tomando en cuenta el feedback recibido en el que se aconsejaba incluir un poco de modernidad, la dicisión quedó tomada por medio de insertar un elegante trabajo de animación facilitado por el estudio de arte ubicado en Vancouver, [Gaint Ant](https://www.giantant.ca/ "Gaint Ant") con un resultado asombroso:
 
-<img src = 'media/sketches/figma5.png'>
+![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/sketches/figma5.png)
 
 ## Funcionalidades
 
