@@ -13,9 +13,9 @@
 Forkea  [este](https://github.com/Mairis-CF/BOG003-card-validation "este") repositorio de GitHub hacia tu nube y descargalo en modalidad remota en tu maquina (recomendable de 64bits),  correras en tu consola los comandos 'npm install' con el que se instalarán todas las depencias necesarias y una vez terminado ese proceso, el siguiente comando será 'npm start' y si todo sale bien, podrás acceder al programa desde la dirección de localhost que te desplegará y correr sin problemas el comando 'npm test'.
 
 
-##Investigación UX
+## Investigación UX
 
-###2.1 Proceso de conceptualización y creación
+### 2.1 Proceso de conceptualización y creación
 
 Durante el proceso de conceptualización y creación de este proyecto, se entrevistó la idea con colegas de oficio y personas que fueron identificadas como publico objetivo y potencial, pero incluso antes de eso, la idea de este proyecto encuentra como guía las siguientes preguntas y respuestas que fueron cruciales en el camino las primeras maquetas:
 
