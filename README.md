@@ -1,14 +1,11 @@
-
-![](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/icono.png){width='100px'}
-
 ![icono](https://github.com/Mairis-CF/BOG003-card-validation/blob/master/src/media/icono.png)
 
 # Do validate
 ###### Do validate es un software gratuito de código abierto que permite validar una tarjeta de crédito de hasta 18 caracteres.
 
 ## Índice de contenidos
-* [Instalación](#Instalación y funcionamiento)
-* [investigación UX](#iinvestigación UX)
+* [Instalación](#Instalación)
+* [investigación UX](#investigación)
 * [Funcionalidades](#Funcionalidades)
 * [Notas](#Notas)
 
@@ -22,11 +19,11 @@ Forkea  [este](https://github.com/Mairis-CF/BOG003-card-validation "este") repos
 
 Durante el proceso de conceptualización y creación de este proyecto, se entrevistó la idea con colegas de oficio y personas que fueron identificadas como publico objetivo y potencial, pero incluso antes de eso, la idea de este proyecto encuentra como guía las siguientes preguntas y respuestas que fueron cruciales en el camino las primeras maquetas:
 
-###### ¿Qué necesidad se evidenció en los posibles usuarios y cómo puede Do Validate suplirlas?
+#### ¿Qué necesidad se evidenció en los posibles usuarios y cómo puede Do Validate suplirlas?
 
 *En la actualidad el uso de dinero tradicional (monedas y billetes), se reduce activa y progresivamente, cada vez son más las tiendas, ecommerce, empresas, etc. que aceptan como principal medio de pago las tarjetas de crédito, incluso un consumidor del común puede verse en la necesidad de saber si la tarjeta de crédito que le ha sido facilitada es o no valida, por lo tanto y frente a esto, la apuesta se hizo en materia de simplicidad y confianza con un software de código abierto y facilmente adsequible para cualquier tipo de usuario.*
 
-###### ¿Cómo beneficia el produco final a los usuarios?
+#### ¿Cómo beneficia el produco final a los usuarios?
 *Con la intención clara de desarrollar un software de código abierto facilmente manipulable, el siguiente reto fue la simpleza: **Mientras más sencillo, más adsequible y usable** por lo tanto, la interfaz de Do Validate cuenta con un ecosistema simple de facil compresión y paramétros claros que hacen a la navegación sencilla y limpia.*
 
 ### 2.2 Bosquejos, borradores y decisiones finales.
