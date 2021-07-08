@@ -46,7 +46,7 @@ en los que se conceptualizó la idea final de interfaz
 
 <img src = 'media/sketches/figma6.png'>
 
-y luego de algunas entrevistas con usuarios potenciales, la dicisión de agregar un poco más de creatividad y estilo quedó tomada por medio de insertar un elegante trabajo de animación facilitado por el estudio de arte ubicado en Vancouver, [Gaint Ant](https://www.giantant.ca/ "Gaint Ant") con un resultado asombroso:
+y luego de algunas entrevistas con usuarios potenciales y tomando en cuenta el feedback recibido en el que se aconsejaba incluir un poco de modernidad, la dicisión quedó tomada por medio de insertar un elegante trabajo de animación facilitado por el estudio de arte ubicado en Vancouver, [Gaint Ant](https://www.giantant.ca/ "Gaint Ant") con un resultado asombroso:
 
 <img src = 'media/sketches/figma5.png'>
 
